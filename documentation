@@ -1,0 +1,15 @@
+//All the shortcuts in the source file
+
+instead of 'pwd' you can type 'current'
+instead of 'cp' you can type 'copy'
+instead of 'mv' you can type 'move'
+instead of 'cd' you can type 'goto'
+instead of 'cat' you can type 'openfile'
+instead of 'mv' you can type 'move'
+instead of 'ls -Gh' you can type 'list' or 'list'
+instead of 'history' you can type 'hy'
+instead of 'cd ..' you can type 'cd1'
+instead of 'cd ../../' you can type 'cd2'
+instead of 'cd ../../../' you can type 'cd3'
+instead of 'open -a' you can type 'opn'
+instead of 'open -g -a' you can type 'opn bk'
