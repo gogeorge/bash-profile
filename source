@@ -1,0 +1,21 @@
+echo "Bash profile has been activated, good luck"
+
+alias current="pwd"
+alias copy="cp"
+alias move="mv"
+alias goto="cd"
+alias openfile="cat"
+alias ls="ls -Gh"
+alias list="ls -Gh"
+alias lla="ls -laG"
+alias llt="ls -ltG"
+alias lalt="ls -altG"
+alias hy="history"
+alias cd1="cd .."
+alias cd2="cd ../../"
+alias cd3="cd ../../../"
+alias opn="open -a"
+alias opn bk="open -g -a"
+alias open bk="open -g -a"
+
+export PS1="$(tput setaf 5)\t $(tput setaf 6)--$(tput setaf 3) \u$(tput setaf 5)>$
