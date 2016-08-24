@@ -1,0 +1,20 @@
+*This can only be installed If you have a platform which runs on macOS like a macbook/iMac
+*This profile works best on a black background and green text theme. You can customize your theme by going to Terminal > Preferences
+
+1.) open terminal and type the following:
+
+nano ~/.bash_profile
+
+*if it doesn't work you can just type your name as well after '_profile'
+
+2.)Then copy paste the code from the other file here named 'source'
+
+3.) press ctrl + o (to save the file), then enter and then ctrl + x to exit the nano editor
+
+4.) To enable the profile type the following:
+
+source ~/.bash_profile
+
+*if you previously entered your name you have to do the same here too.
+
+-----------------------------------------------------------------------------------
