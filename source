@@ -1,21 +1,67 @@
 echo "Bash profile has been activated, good luck"
 
+#Aliases / command shortcuts
+
 alias current="pwd"
 alias copy="cp"
 alias move="mv"
 alias goto="cd"
 alias openfile="cat"
-alias ls="ls -Gh"
+alias hy="history"
+alias clearhistory="history -c"
+alias search="mdfind"
+alias create="touch"
+alias copyfile="pbcopy <"
+alias subl="open -a 'sublime text 2'"
+
+alias nosleep="caffeinate -t"
+alias nosleep30m="caffeinate -t 1800"
+alias nosleep1="caffeinate -t 3600"
+alias noslep2="caffeinate -t 7200"
+
+alias ls="ls -h"
 alias list="ls -Gh"
 alias lla="ls -laG"
 alias llt="ls -ltG"
-alias lalt="ls -altG"
-alias hy="history"
+alias lalt="ls -FGlAhpt"
+
 alias cd1="cd .."
 alias cd2="cd ../../"
 alias cd3="cd ../../../"
-alias opn="open -a"
-alias opn bk="open -g -a"
-alias open bk="open -g -a"
 
-export PS1="$(tput setaf 5)\t $(tput setaf 6)--$(tput setaf 3) \u$(tput setaf 5)>$
+alias opn bk="open -g -a"
+
+alias zipfile="zip -r"
+alias zip better="zip -7"
+alias zip best="zip -9"
+alias zip faster="zip -4"
+alias zip fast="zip -1"
+alias zip password="zip -e"
+
+alias remove="rm"
+alias rmfolder="rm -r"
+
+#colors
+if tput setaf 1 &> /dev/null; then
+	tput sgr0;
+	bold=$(tput bold);
+	reset=$(tput sgr0);
+
+	black=$(tput setaf 0);
+	purple=$(tput setaf 5);
+	white=$(tput setaf 15);
+	blue=$(tput setaf 33);
+	cyan=$(tput setaf 37);
+	violet=$(tput setaf 61);
+	green=$(tput setaf 64);
+	red=$(tput setaf 124);
+	orange=$(tput setaf 166);
+	yellow=$(tput setaf 226);
+fi;
+
+#exports
+export USER="George Valtas"
+export PS1="${purple}\t ${orange}@${violet}\W${bold}${cyan} -${yellow} \u${purple}\n${reset}${red}$ ${reset}"
+
+
+
