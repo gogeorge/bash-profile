@@ -1,4 +1,4 @@
-echo "${cyan}${bold}Bash profile has been activated, good luck"
+echo "${cyan}${bold}Bash profile has been activated, good luck${reset}"
 
 #Aliases / command shortcuts
 
