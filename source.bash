@@ -1,6 +1,9 @@
 echo "${cyan}${bold}Bash profile has been activated, good luck${reset}"
 
 #Aliases / command shortcuts
+echo "${cyan}${bold}Bash profile has been activated, good luck${reset}"
+
+#Aliases / command shortcuts
 
 alias current="pwd"
 alias copy="cp"
@@ -12,7 +15,6 @@ alias clearhistory="history -c"
 alias search="mdfind"
 alias create="touch"
 alias copyfile="pbcopy <"
-alias subl="open -a 'sublime text 2'"
 
 alias nosleep="caffeinate -t"
 alias nosleep30m="caffeinate -t 1800"
@@ -29,17 +31,22 @@ alias cd1="cd .."
 alias cd2="cd ../../"
 alias cd3="cd ../../../"
 
-alias opn bk="open -g -a"
+alias opn-bk="open -g -a"
 
 alias zipfile="zip -r"
-alias zip better="zip -7"
-alias zip best="zip -9"
-alias zip faster="zip -4"
-alias zip fast="zip -1"
-alias zip password="zip -e"
+alias zip-better="zip -7"
+alias zip-best="zip -9"
+alias zip-faster="zip -4"
+alias zip-fast="zip -1"
+alias zip-password="zip -e"
 
 alias remove="rm"
 alias rmfolder="rm -r"
+
+alias localhost="python -m SimpleHTTPServer"
+alias subl="open -a 'Sublime Text 2'"
+alias macfind="arp -a"
+alias searchmac="open http://coffer.com/mac_find/"
 
 #colors
 if tput setaf 1 &> /dev/null; then
