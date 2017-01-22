@@ -1,4 +1,4 @@
-//All the shortcuts in the source file
+All the shortcuts in the source file
 
 instead of 'pwd' you can type 'current'
 instead of 'cp' you can type 'copy'
@@ -16,6 +16,3 @@ instead of 'open -g -a' you can type 'opn bk'
 instead of 'caffeinate -t 3600' you can type 'nosleep1'
 instead of 'rm -r' you can type 'remove'
 instead of 'mdfind' you can type 'search'
-
-To zip a file fast you can type 'zip faster' (zip -4) or 'zip fast' (zip -1)
-
