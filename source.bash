@@ -1,4 +1,4 @@
-echo "${cyan}${bold}Bash profile has been activated, good luck${reset}"
+echo "${cyan}${bold}Bash profile has been activated${reset}"
 
 #Aliases / command shortcuts
 
@@ -64,7 +64,6 @@ if tput setaf 1 &> /dev/null; then
 fi;
 
 #exports
-export USER="George Valtas"
 export PS1="${purple}\t ${orange}@${violet}\W${bold}${cyan} -${yellow} \u${purple}\n${reset}${red}$ ${reset}"
 
 
